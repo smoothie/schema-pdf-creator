@@ -1,0 +1,23 @@
+{
+    "name": "smoothie/schema-pdf-creator-qa",
+    "description": "The QA tool chain for smoothie/schema-pdf-creator.",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Marc Eichenseher",
+            "email": "hello@marceichenseher.com"
+        }
+    ],
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.16",
+        "phpunit/phpunit": "^10.5.5",
+        "psalm/plugin-phpunit": "^0.18.4",
+        "vimeo/psalm": "^5.9"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}

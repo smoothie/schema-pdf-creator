@@ -1,0 +1,42 @@
+{
+    "name": "smoothie/schema-pdf-creator",
+    "description": "Create PDFs from a schema.",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Marc Eichenseher",
+            "email": "hello@marceichenseher.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Smoothie\\SchemaPdfCreator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Smoothie\\Tests\\SchemaPdfCreator\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "check-code-format": "@php ./qa/vendor/bin/php-cs-fixer fix --dry-run --diff",
+        "check-quality": [
+            "@check-code-format",
+            "@check-types",
+            "@check-tests"
+        ],
+        "check-tests": "@php ./qa/vendor/bin/phpunit",
+        "check-types": "@php ./qa/vendor/bin/psalm --find-dead-code=always --output-format=compact --no-progress",
+        "fix-code-format": "@php ./qa/vendor/bin/php-cs-fixer fix --diff"
+    }
+}
