@@ -17,12 +17,16 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Smoothie\\SchemaPdfCreator\\": "src/"
+            "Smoothie\\SchemaConverter\\": "src/schema-converter",
+            "Smoothie\\SchemaInterpreter\\": "src/schema-interpreter",
+            "Smoothie\\SchemaPdfCreator\\": "src/schema-pdf-creator"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Smoothie\\Tests\\SchemaPdfCreator\\": "tests/"
+            "Smoothie\\Tests\\SchemaConverter\\": "tests/schema-converter",
+            "Smoothie\\Tests\\SchemaInterpreter\\": "tests/schema-interpreter",
+            "Smoothie\\Tests\\SchemaPdfCreator\\": "tests/schema-pdf-creator"
         }
     },
     "config": {

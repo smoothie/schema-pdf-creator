@@ -4,10 +4,14 @@
          colors="true" cacheDirectory=".phpunit.cache">
     <testsuites>
         <testsuite name="Unit">
-            <directory suffix="Test.php">./tests/Unit</directory>
+            <directory suffix="Test.php">./tests/schema-interpreter/Unit</directory>
+            <directory suffix="Test.php">./tests/schema-converter/Unit</directory>
+            <directory suffix="Test.php">./tests/schema-pdf-creator/Unit</directory>
         </testsuite>
         <testsuite name="Integration">
-            <directory suffix="Test.php">./tests/Integration</directory>
+            <directory suffix="Test.php">./tests/schema-interpreter/Integration</directory>
+            <directory suffix="Test.php">./tests/schema-converter/Integration</directory>
+            <directory suffix="Test.php">./tests/schema-pdf-creator/Integration</directory>
         </testsuite>
         <!--        <testsuite name="Acceptance">-->
         <!--            <directory suffix="Test.php">./tests/Acceptance</directory>-->
@@ -15,7 +19,9 @@
     </testsuites>
     <source>
         <include>
-            <directory suffix=".php">./src</directory>
+            <directory suffix=".php">./src/schema-converter</directory>
+            <directory suffix=".php">./src/schema-interpreter</directory>
+            <directory suffix=".php">./src/schema-pdf-creator</directory>
         </include>
     </source>
 </phpunit>
