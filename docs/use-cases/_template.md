@@ -1,6 +1,6 @@
 # [short title of the feature]
 
-* Status: [proposed | rejected | accepted | in_progress | … ]
+* Status: [proposed | rejected | accepted | in_progress | shipped | … ]
 * Date: [YYYY-MM-DD when the decision was last updated] <!-- optional -->
 
 ## Context and Problem Statement
@@ -10,7 +10,7 @@
 
 [describe the context and the persona problem statement, e.g., in free form using two to three sentences.]
 
-## Definition of Done
+## Use Cases <!-- optional -->
 
 * [list of criteria indicating how we'll know when the problem is resolved]
 * … <!-- numbers of criteria can vary -->
