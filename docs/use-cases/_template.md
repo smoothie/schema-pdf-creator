@@ -8,7 +8,8 @@
 * Persona: [person or role facing the issue that we aim to solve]
 * … <!-- numbers of persona can vary -->
 
-[describe the context and the persona problem statement, e.g., in free form using two to three sentences.]
+[describe the context and the persona problem statement, e.g., in free form using two to three
+sentences.]
 
 ## Use Cases <!-- optional -->
 
