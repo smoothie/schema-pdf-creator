@@ -8,10 +8,7 @@ use Smoothie\Tests\SchemaInterpreter\BasicTestCase;
 
 /**
  * @group unit
- * @group unit-domain
- * @group unit-domain-maintaining
- * @group unit-domain-maintaining-fields
- * @group unit-domain-maintaining-fields-text
+ * @group unit-dummy
  */
 class DummyTest extends BasicTestCase
 {

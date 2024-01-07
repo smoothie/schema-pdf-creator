@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java"
+         xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0"
+         xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml"
+         xmlns:yed="http://www.yworks.com/xml/yed/3"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+    <!--Created by yEd 3.23.2-->
+    <key attr.name="Description" attr.type="string" for="graph" id="d0"/>
+    <key for="port" id="d1" yfiles.type="portgraphics"/>
+    <key for="port" id="d2" yfiles.type="portgeometry"/>
+    <key for="port" id="d3" yfiles.type="portuserdata"/>
+    <key attr.name="url" attr.type="string" for="node" id="d4"/>
+    <key attr.name="description" attr.type="string" for="node" id="d5"/>
+    <key for="node" id="d6" yfiles.type="nodegraphics"/>
+    <key for="graphml" id="d7" yfiles.type="resources"/>
+    <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+    <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+    <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+    <graph edgedefault="directed" id="G">
+        <data key="d0" xml:space="preserve"/>
+        <node id="n0">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="120.0" x="-51.8125" y="436.5"/>
+                    <y:Fill color="#FD9D06" transparent="false"/>
+                    <y:BorderStyle color="#FD9D06" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="36.120208740234375" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="120.0" x="0.0" xml:space="preserve"
+                                 y="19.439895629882812">validated schema on input </y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <node id="n1">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="120.0" x="847.71875" y="436.5"/>
+                    <y:Fill color="#FD9D06" transparent="false"/>
+                    <y:BorderStyle color="#FD9D06" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="36.120208740234375" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="120.0" x="0.0" xml:space="preserve"
+                                 y="19.439895629882812">mapped input to output</y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <node id="n2">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="120.0" x="1411.4375" y="436.5"/>
+                    <y:Fill color="#FD9D06" transparent="false"/>
+                    <y:BorderStyle color="#FD9D06" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="36.120208740234375" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="120.0" x="0.0" xml:space="preserve"
+                                 y="19.439895629882812">validated schema on output</y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <node id="n3">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="120.0" x="1854.875" y="436.5"/>
+                    <y:Fill color="#FD9D06" transparent="false"/>
+                    <y:BorderStyle color="#FD9D06" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="36.120208740234375" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="120.0" x="0.0" xml:space="preserve"
+                                 y="19.439895629882812">created pdf from output</y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <node id="n4">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="120.0" x="-213.75" y="436.5"/>
+                    <y:Fill color="#4DBCE9" transparent="false"/>
+                    <y:BorderStyle color="#4DBCE9" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="36.120208740234375" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="120.0" x="0.0" xml:space="preserve"
+                                 y="19.439895629882812">validate schema on input</y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <node id="n5">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="120.0" x="685.78125" y="436.5"/>
+                    <y:Fill color="#4DBCE9" transparent="false"/>
+                    <y:BorderStyle color="#4DBCE9" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="21.060104370117188" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="120.0" x="0.0" xml:space="preserve"
+                                 y="26.969947814941406">map input to output</y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <node id="n6">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="120.0" x="1261.4375" y="436.5"/>
+                    <y:Fill color="#4DBCE9" transparent="false"/>
+                    <y:BorderStyle color="#4DBCE9" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="36.120208740234375" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="120.0" x="0.0" xml:space="preserve"
+                                 y="19.439895629882812">validate schema on output</y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <node id="n7">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="120.0" x="1713.75" y="436.5"/>
+                    <y:Fill color="#4DBCE9" transparent="false"/>
+                    <y:BorderStyle color="#4DBCE9" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="36.120208740234375" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="120.0" x="0.0" xml:space="preserve"
+                                 y="19.439895629882812">create pdf from output</y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <node id="n8">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="120.0" x="110.125" y="436.5"/>
+                    <y:Fill color="#B877A8" transparent="false"/>
+                    <y:BorderStyle color="#B877A8" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="51.18031311035156" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="120.0" x="0.0" xml:space="preserve"
+                                 y="11.909843444824219">When input data adheres to schema then</y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <node id="n9">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="120.0" x="472.79340203196705" y="-231.90358582521094"/>
+                    <y:Fill color="#FD9D06" transparent="false"/>
+                    <y:BorderStyle color="#FD9D06" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="21.060104370117188" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="120.0" x="0.0" xml:space="preserve"
+                                 y="26.969947814941406">Domain Event</y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <node id="n10">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="120.0" x="-180.06972579806296" y="-231.90358582521094"/>
+                    <y:Fill color="#4DBCE9" transparent="false"/>
+                    <y:BorderStyle color="#4DBCE9" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="21.060104370117188" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="120.0" x="0.0" xml:space="preserve"
+                                 y="26.969947814941406">Command</y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <node id="n11">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="120.0" x="125.71205820193737" y="-384.5896924918774"/>
+                    <y:Fill color="#FFFFCC" transparent="false"/>
+                    <y:BorderStyle color="#FFFFCC" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="36.120208740234375" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="120.0" x="0.0" xml:space="preserve"
+                                 y="19.439895629882812">Consistent Rules
+(Aggregates)</y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <node id="n12">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="120.0" x="1100.0934609332312" y="-368.4678364918775"/>
+                    <y:Fill color="#F5F6F8" transparent="false"/>
+                    <y:BorderStyle color="#F5F6F8" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="21.060104370117188" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="120.0" x="0.0" xml:space="preserve"
+                                 y="26.969947814941406">UI</y:NodeLabel>
+                    <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12"
+                                 fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false"
+                                 height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom"
+                                 textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0"
+                                 x="46.71749999999861" y="15.059499999998593">
+                        <y:LabelModel>
+                            <y:SmartNodeLabelModel distance="4.0"/>
+                        </y:LabelModel>
+                        <y:ModelParameter>
+                            <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5"
+                                                            nodeRatioX="-0.09402083333334493"
+                                                            nodeRatioY="-0.29920666666668544" offsetX="0.0"
+                                                            offsetY="0.0" upX="0.0" upY="-1.0"/>
+                        </y:ModelParameter>
+                    </y:NodeLabel>
+                    <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12"
+                                 fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false"
+                                 height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom"
+                                 textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0"
+                                 x="19.21749999999861" y="26.309499999998593">
+                        <y:LabelModel>
+                            <y:SmartNodeLabelModel distance="4.0"/>
+                        </y:LabelModel>
+                        <y:ModelParameter>
+                            <y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.0"
+                                                            nodeRatioX="-0.3398541666666782"
+                                                            nodeRatioY="-0.12254000000001875" offsetX="0.0"
+                                                            offsetY="0.0" upX="0.0" upY="-1.0"/>
+                        </y:ModelParameter>
+                    </y:NodeLabel>
+                    <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Mulish" fontSize="12"
+                                 fontStyle="plain" hasBackgroundColor="false" hasLineColor="false"
+                                 height="34.12021064758301" horizontalTextPosition="center" iconTextGap="4"
+                                 modelName="custom" textColor="#212121" verticalTextPosition="bottom" visible="true"
+                                 width="193.02532958984375" x="-36.512664794921875" xml:space="preserve"
+                                 y="-53.238960647582985">An actor typically interacts with a
+read model through a UI<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel>
+                        <y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.5" nodeRatioX="0.0" nodeRatioY="-0.5" offsetX="0.0" offsetY="-19.118749999999977" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <node id="n13">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="75.0" x="1350.8125" y="-368.4678364918775"/>
+                    <y:Fill color="#FFCC33" transparent="false"/>
+                    <y:BorderStyle color="#FFCC33" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="36.120208740234375" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="75.0" x="0.0" xml:space="preserve"
+                                 y="19.439895629882812">Actor / Persona</y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <node id="n14">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="120.0" x="819.8747458619968" y="-368.4678364918775"/>
+                    <y:Fill color="#D1E751" transparent="false"/>
+                    <y:BorderStyle color="#D1E751" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="21.060104370117188" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="120.0" x="0.0" xml:space="preserve"
+                                 y="26.969947814941406">Read Model</y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <node id="n15">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="120.0" x="1075.0150182665648" y="65.46509150812255"/>
+                    <y:Fill color="#B877A8" transparent="false"/>
+                    <y:BorderStyle color="#B877A8" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="36.120208740234375" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="120.0" x="0.0" xml:space="preserve"
+                                 y="19.439895629882812">Policy
+&lt;if - then&gt;</y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <node id="n16">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="120.0" x="396.26881812514273" y="-499.24400182521083"/>
+                    <y:Fill color="#ED6464" transparent="false"/>
+                    <y:BorderStyle color="#ED6464" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="21.060104370117188" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="120.0" x="0.0" xml:space="preserve"
+                                 y="26.969947814941406">Question?</y:NodeLabel>
+                    <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12"
+                                 fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false"
+                                 height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom"
+                                 textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0"
+                                 x="72.15083333333223" y="50.659499999998616">
+                        <y:LabelModel>
+                            <y:SmartNodeLabelModel distance="4.0"/>
+                        </y:LabelModel>
+                        <y:ModelParameter>
+                            <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.5"
+                                                            nodeRatioX="0.11792361111110194"
+                                                            nodeRatioY="0.22879333333331453" offsetX="0.0" offsetY="0.0"
+                                                            upX="0.0" upY="-1.0"/>
+                        </y:ModelParameter>
+                    </y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <node id="n17">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="120.0" x="1462.1667392794018" y="-160.2508924918775"/>
+                    <y:Fill color="#4DBCE9" transparent="false"/>
+                    <y:BorderStyle color="#4DBCE9" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="21.060104370117188" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="120.0" x="0.0" xml:space="preserve"
+                                 y="26.969947814941406">Command</y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <node id="n18">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="120.0" x="152.58181820193738" y="-13.352871158544076"/>
+                    <y:Fill color="#FFB6C1" transparent="false"/>
+                    <y:BorderStyle color="#FFB6C1" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="21.060104370117188" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="120.0" x="0.0" xml:space="preserve"
+                                 y="26.969947814941406">External System</y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <node id="n19">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="120.0" x="110.125" y="552.625"/>
+                    <y:Fill color="#B877A8" transparent="false"/>
+                    <y:BorderStyle color="#B877A8" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="51.18031311035156" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="120.0" x="0.0" xml:space="preserve"
+                                 y="11.909843444824219">When input data does not adhere to schema then</y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <node id="n20">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="120.0" x="272.0625" y="552.625"/>
+                    <y:Fill color="#4DBCE9" transparent="false"/>
+                    <y:BorderStyle color="#4DBCE9" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="21.060104370117188" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="120.0" x="0.0" xml:space="preserve"
+                                 y="26.969947814941406">fail for invalid input</y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <node id="n21">
+            <data key="d6">
+                <y:ShapeNode>
+                    <y:Geometry height="75.0" width="120.0" x="434.0" y="552.625"/>
+                    <y:Fill color="#FD9D06" transparent="false"/>
+                    <y:BorderStyle color="#FD9D06" raised="false" type="line" width="1.0"/>
+                    <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel"
+                                 fontFamily="Mulish SemiBold" fontSize="12" fontStyle="plain" hasBackgroundColor="false"
+                                 hasLineColor="false" height="36.120208740234375" horizontalTextPosition="center"
+                                 iconTextGap="4" modelName="internal" modelPosition="c" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="120.0" x="0.0" xml:space="preserve"
+                                 y="19.439895629882812">failed for invalid input</y:NodeLabel>
+                    <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+            </data>
+        </node>
+        <edge id="e0" source="n10" target="n11">
+            <data key="d10">
+                <y:SplineEdge>
+                    <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+                        <y:Point x="-26.310566336636924" y="-322.0112498252108"/>
+                    </y:Path>
+                    <y:LineStyle color="#212121" type="line" width="1.0"/>
+                    <y:Arrows source="none" target="standard"/>
+                    <y:EdgeLabel alignment="left" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Mulish"
+                                 fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false"
+                                 height="19.060105323791504" horizontalTextPosition="center" iconTextGap="4"
+                                 modelName="custom" preferredPlacement="center_on_edge" ratio="0.5" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="64.03640747070312"
+                                 x="-74.84590890562262" xml:space="preserve" y="-6.110878269512881">invoked on<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel>
+                        <y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="9.828625939484047" distanceToCenter="false" position="left" ratio="-34.55708292319823" segment="0"/></y:ModelParameter>
+                        <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute"
+                                                        angleRotationOnRightSide="co" distance="-1.0" placement="center"
+                                                        side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+                </y:SplineEdge>
+            </data>
+        </edge>
+        <edge id="e1" source="n11" target="n9">
+            <data key="d10">
+                <y:SplineEdge>
+                    <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+                        <y:Point x="331.95290033002993" y="-304.9337819853039"/>
+                    </y:Path>
+                    <y:LineStyle color="#212121" type="line" width="1.0"/>
+                    <y:Arrows source="none" target="standard"/>
+                    <y:EdgeLabel alignment="left" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Mulish"
+                                 fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false"
+                                 height="19.060105323791504" horizontalTextPosition="center" iconTextGap="4"
+                                 modelName="custom" preferredPlacement="center_on_edge" ratio="0.5" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="59.560394287109375"
+                                 x="12.67002436901771" xml:space="preserve" y="-13.486561465637863">generates<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel>
+                        <y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="1.8550312404311622" distanceToCenter="false" position="left" ratio="0.13540701100222893" segment="0"/></y:ModelParameter>
+                        <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute"
+                                                        angleRotationOnRightSide="co" distance="-1.0" placement="center"
+                                                        side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+                </y:SplineEdge>
+            </data>
+        </edge>
+        <edge id="e2" source="n18" target="n9">
+            <data key="d10">
+                <y:SplineEdge>
+                    <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+                        <y:Point x="383.9011029966964" y="6.75543401469622"/>
+                    </y:Path>
+                    <y:LineStyle color="#212121" type="line" width="1.0"/>
+                    <y:Arrows source="none" target="standard"/>
+                    <y:EdgeLabel alignment="left" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Mulish"
+                                 fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false"
+                                 height="19.060105323791504" horizontalTextPosition="center" iconTextGap="4"
+                                 modelName="custom" preferredPlacement="center_on_edge" ratio="0.5" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="59.560394287109375"
+                                 x="138.99985845023025" xml:space="preserve" y="-53.66295933363199">generates<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel>
+                        <y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="5.0915176808336176" distanceToCenter="false" position="right" ratio="0.2441500419562118" segment="-1"/></y:ModelParameter>
+                        <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute"
+                                                        angleRotationOnRightSide="co" distance="-1.0" placement="center"
+                                                        side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+                </y:SplineEdge>
+            </data>
+        </edge>
+        <edge id="e3" source="n10" target="n18">
+            <data key="d10">
+                <y:SplineEdge>
+                    <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+                        <y:Point x="-89.61733113139627" y="-109.68019265197051"/>
+                        <y:Point x="-1.2321236699703775" y="-3.992469985303842"/>
+                    </y:Path>
+                    <y:LineStyle color="#212121" type="line" width="1.0"/>
+                    <y:Arrows source="none" target="standard"/>
+                    <y:EdgeLabel alignment="left" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Mulish"
+                                 fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false"
+                                 height="19.060105323791504" horizontalTextPosition="center" iconTextGap="4"
+                                 modelName="custom" preferredPlacement="center_on_edge" ratio="0.5" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="64.03640747070312"
+                                 x="63.19427032380649" xml:space="preserve" y="169.7767285979113">invoked on<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel>
+                        <y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="13.976346630852554" distanceToCenter="false" position="right" ratio="-7.566098493435217" segment="-1"/></y:ModelParameter>
+                        <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute"
+                                                        angleRotationOnRightSide="co" distance="-1.0" placement="center"
+                                                        side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+                </y:SplineEdge>
+            </data>
+        </edge>
+        <edge id="e4" source="n9" target="n14">
+            <data key="d10">
+                <y:SplineEdge>
+                    <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+                        <y:Point x="636.4768469966966" y="-315.68168598530394"/>
+                    </y:Path>
+                    <y:LineStyle color="#212121" type="line" width="1.0"/>
+                    <y:Arrows source="none" target="standard"/>
+                    <y:EdgeLabel alignment="left" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Mulish"
+                                 fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false"
+                                 height="19.060105323791504" horizontalTextPosition="center" iconTextGap="4"
+                                 modelName="custom" preferredPlacement="center_on_edge" ratio="0.5" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="83.54855346679688"
+                                 x="-62.935330275305546" xml:space="preserve" y="-39.757559713540104">translates into<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel>
+                        <y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="8.5718368946472" distanceToCenter="false" position="left" ratio="0.0" segment="0"/></y:ModelParameter>
+                        <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute"
+                                                        angleRotationOnRightSide="co" distance="-1.0" placement="center"
+                                                        side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+                </y:SplineEdge>
+            </data>
+        </edge>
+        <edge id="e5" source="n9" target="n15">
+            <data key="d10">
+                <y:SplineEdge>
+                    <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+                        <y:Point x="692.0076843300299" y="30.0425593480295"/>
+                    </y:Path>
+                    <y:LineStyle color="#212121" type="line" width="1.0"/>
+                    <y:Arrows source="none" target="standard"/>
+                    <y:EdgeLabel alignment="left" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Mulish"
+                                 fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false"
+                                 height="19.060105323791504" horizontalTextPosition="center" iconTextGap="4"
+                                 modelName="custom" preferredPlacement="center_on_edge" ratio="0.5" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="46.720306396484375"
+                                 x="89.05564681505189" xml:space="preserve" y="189.61656957484223">triggers<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel>
+                        <y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="10.767882688549523" distanceToCenter="false" position="right" ratio="0.9559074840497126" segment="0"/></y:ModelParameter>
+                        <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute"
+                                                        angleRotationOnRightSide="co" distance="-1.0" placement="center"
+                                                        side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+                </y:SplineEdge>
+            </data>
+        </edge>
+        <edge id="e6" source="n14" target="n12">
+            <data key="d10">
+                <y:SplineEdge>
+                    <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+                    <y:LineStyle color="#212121" type="dashed" width="1.0"/>
+                    <y:Arrows source="none" target="standard"/>
+                </y:SplineEdge>
+            </data>
+        </edge>
+        <edge id="e7" source="n13" target="n12">
+            <data key="d10">
+                <y:SplineEdge>
+                    <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+                    <y:LineStyle color="#212121" type="dashed" width="1.0"/>
+                    <y:Arrows source="none" target="standard"/>
+                </y:SplineEdge>
+            </data>
+        </edge>
+        <edge id="e8" source="n13" target="n17">
+            <data key="d10">
+                <y:SplineEdge>
+                    <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+                        <y:Point x="1522.1667392794018" y="-297.7685126519706"/>
+                    </y:Path>
+                    <y:LineStyle color="#212121" type="line" width="1.0"/>
+                    <y:Arrows source="none" target="standard"/>
+                    <y:EdgeLabel alignment="left" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Mulish"
+                                 fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false"
+                                 height="19.060105323791504" horizontalTextPosition="center" iconTextGap="4"
+                                 modelName="custom" preferredPlacement="center_on_edge" ratio="0.5" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="45.77227783203125"
+                                 x="2.585111961427401" xml:space="preserve" y="-17.577296275107813">invokes<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel>
+                        <y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="7.3874608664244965" distanceToCenter="false" position="left" ratio="-2.4788765792987038" segment="0"/></y:ModelParameter>
+                        <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute"
+                                                        angleRotationOnRightSide="co" distance="-1.0" placement="center"
+                                                        side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+                </y:SplineEdge>
+            </data>
+        </edge>
+        <edge id="e9" source="n15" target="n17">
+            <data key="d10">
+                <y:SplineEdge>
+                    <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+                        <y:Point x="1460.4828203300303" y="89.15603134802961"/>
+                    </y:Path>
+                    <y:LineStyle color="#212121" type="line" width="1.0"/>
+                    <y:Arrows source="none" target="standard"/>
+                    <y:EdgeLabel alignment="left" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Mulish"
+                                 fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false"
+                                 height="19.060105323791504" horizontalTextPosition="center" iconTextGap="4"
+                                 modelName="custom" preferredPlacement="center_on_edge" ratio="0.5" textColor="#212121"
+                                 verticalTextPosition="bottom" visible="true" width="45.77227783203125"
+                                 x="249.58990787295716" xml:space="preserve" y="-4.485965078469263">invokes<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel>
+                        <y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="13.101356419265821" distanceToCenter="false" position="right" ratio="5.993619343175524" segment="-2"/></y:ModelParameter>
+                        <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute"
+                                                        angleRotationOnRightSide="co" distance="-1.0" placement="center"
+                                                        side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+                </y:SplineEdge>
+            </data>
+        </edge>
+    </graph>
+    <data key="d7">
+        <y:Resources/>
+    </data>
+</graphml>
