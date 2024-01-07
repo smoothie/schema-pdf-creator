@@ -86,7 +86,7 @@ Supports: draft-7 draft-6 and draft-4
 
 ### 5. Custom Implementation
 
-Build an own JSON-Schema implementation
+Build an own JSON Schema implementation
 
 * Bad, because there are already good implementations
 
@@ -97,10 +97,6 @@ Do not heavily lock into a specific package, focus more on domain contracts.
 And provide recommendations for a default package.
 
 * Good, because considering the amount of drafts, this seems the way to go.
-
-## Trivia
-
-- OpenAPI uses an extended subset of JSONSchema draft-04
 
 ## Decision Outcome
 
@@ -123,5 +119,3 @@ contracts and let users specify how the validation works.
 * JSON Schema:
     * [Test Suite](https://github.com/json-schema-org/JSON-Schema-Test-Suite)
     * [List of all drafts](https://json-schema.org/specification-links#published-drafts)
-
-[1]: https://github.com/justinrainbow/json-schema/issues/396
